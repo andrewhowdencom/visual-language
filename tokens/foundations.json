@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "status": "starter values; adapt to platform and task",
+  "spacing": {
+    "unit": "logical pixel or dp",
+    "steps": [4, 8, 12, 16, 24, 32, 48],
+    "compactContentInset": 16,
+    "comfortableContentInset": 24,
+    "readingWidthMax": 760
+  },
+  "shape": {
+    "inputRadius": 10,
+    "cardRadius": 16,
+    "heroRadius": 24,
+    "pillRadius": 999
+  },
+  "webType": {
+    "bodyFamily": "Avenir Next, Avenir, Segoe UI, sans-serif",
+    "displayFallback": "Georgia, Times New Roman, serif",
+    "bodySize": 16,
+    "bodyLineHeight": 1.6,
+    "smallSize": 13
+  },
+  "androidType": "Start with Material 3 typography roles; customize deliberately and test font scaling."
+}
