@@ -1,0 +1,13 @@
+{
+  "name": "visual-language",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "marked": "18.0.14"
+  }
+}
