@@ -107,6 +107,31 @@
         "focus": "#C6E1AC"
       }
     },
+    "avocadoMint": {
+      "label": "Avocado Mint",
+      "anchor": "#9FB58A",
+      "intensity": {
+        "subtle": "#EAF0E4",
+        "base": "#9FB58A",
+        "vivid": "#526B40"
+      },
+      "light": {
+        "primary": "#526B40",
+        "primaryStrong": "#40572F",
+        "onPrimary": "#FFFFFF",
+        "primaryContainer": "#EAF0E4",
+        "onPrimaryContainer": "#2B3A22",
+        "focus": "#40572F"
+      },
+      "dark": {
+        "primary": "#BAD3A5",
+        "primaryStrong": "#D2E8BC",
+        "onPrimary": "#22321B",
+        "primaryContainer": "#37492D",
+        "onPrimaryContainer": "#E5F2D7",
+        "focus": "#D2E8BC"
+      }
+    },
     "fadedMustard": {
       "label": "Faded Mustard",
       "anchor": "#D9B45B",

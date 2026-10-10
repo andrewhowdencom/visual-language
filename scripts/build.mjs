@@ -125,6 +125,9 @@ function swatchCards() {
     ['Dusty Coral', tokenData.anchors.dustyCoral, 'default primary'],
     ['Soft Terracotta', tokenData.anchors.softTerracotta, 'peach warmth'],
     ['Faded Mustard', tokenData.anchors.fadedMustard, 'warmth'],
+    ['Deep Avocado', tokenData.anchors.deepAvocado, 'grounded'],
+    ['Avocado Mint', tokenData.anchors.avocadoMint, 'soft green'],
+    ['Muted Mauve', tokenData.anchors.mutedMauve, 'quiet purple'],
     ['Powder Blue', tokenData.anchors.powderBlue, 'air']
   ];
   return `<div class="swatch-row">${cards.map(([name, hex, mood]) => `<div class="swatch"><div class="swatch-color" style="background:${hex}"></div><div class="swatch-name">${name}</div><div class="swatch-meta">${hex} / ${mood}</div></div>`).join('')}</div>`;

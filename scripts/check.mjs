@@ -34,7 +34,7 @@ for (const [name, value] of Object.entries(expectedAnchors)) {
 }
 
 if (!palette.themes[palette.defaultTheme]) failures.push('Default theme is missing');
-if (Object.keys(palette.themes).length !== 6) failures.push('Expected six selectable themes');
+if (Object.keys(palette.themes).length !== 7) failures.push('Expected seven selectable themes');
 for (const [family, theme] of Object.entries(palette.themes)) {
   if (theme.anchor !== palette.anchors[family]) failures.push(`${family} anchor mismatch`);
   for (const mode of ['light', 'dark']) {
@@ -88,5 +88,5 @@ if (failures.length) {
   console.error(failures.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`Checked ${pages.length} pages, local links, anchor colors, and six light/dark theme contrast pairs.`);
+  console.log(`Checked ${pages.length} pages, local links, anchor colors, and seven light/dark theme contrast pairs.`);
 }

@@ -95,6 +95,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--primary-strong)
 .color-options { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
 .color-option { display: flex; align-items: center; gap: 10px; text-align: left; border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 11px; padding: 10px; cursor: pointer; font-size: 12px; font-weight: 750; }
 .color-option:hover { border-color: var(--primary); }
+.color-option:last-child:nth-child(odd) { grid-column: span 2; }
 .color-option[aria-pressed="true"] { border: 2px solid var(--primary); padding: 9px; background: var(--surface-soft); }
 .color-option-swatch { width: 25px; height: 25px; border-radius: 7px; flex: 0 0 auto; border: 1px solid rgba(0,0,0,.08); }
 .color-option-check { margin-left: auto; color: var(--primary); visibility: hidden; }
@@ -426,6 +427,7 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
   .method-card p { margin: 0 0 10px; }
   .method-card .card-link { margin: 0; }
   .swatch-row { grid-template-columns: repeat(2, 1fr); }
+  .swatch:last-child { grid-column: span 2; }
   .swatch-color { height: 80px; }
   .demo-body { grid-template-columns: 1fr; }
   .demo-nav { display: none; }
