@@ -9,7 +9,7 @@ These are starting colors, not nine simultaneous UI roles. The brighter values s
 | Warm White | `#FAFAF7` | Light canvas |
 | Espresso | `#3C3432` | Primary text and dark neutral |
 | Deep Avocado | `#5F704B` | Possible primary; weightlifting example |
-| Avocado Mint | `#9FB58A` | Tonal accent |
+| Avocado Mint | `#9FB58A` | Light green primary option or tonal accent |
 | Faded Mustard | `#D9B45B` | Warm primary option or small accent |
 | Soft Terracotta | `#D98B6C` | Peach primary option |
 | Dusty Coral | `#D9878F` | Default pink primary family |
@@ -24,7 +24,7 @@ Choose a primary family for the product. For each family in use, define **subtle
 
 **Must:** Assign colors through roles such as `canvas`, `surface`, `text`, `text-muted`, `primary`, `on-primary`, `primary-container`, `on-primary-container`, `border`, `focus`, `error`, and `on-error`. Keep raw hex values in token definitions or artwork. For Android, map those roles into Material 3 `ColorScheme` rather than recoloring each component separately. For web, expose them as CSS custom properties.
 
-The [token file](../tokens/palette.json) includes the anchors and six tested primary families. Dusty Coral is the default for this site and its worked example. The site's color selector previews the other families without changing this written recommendation. A product can select another family when its context calls for it. The original pink anchor is too light for ordinary white text, so the light scheme uses a darker derived coral for filled primary actions and keeps `#D9878F` as the family anchor. The scheme must be checked again if a color, font weight, opacity, or surface changes.
+The [token file](../tokens/palette.json) includes all nine Android-skill anchors and seven tested primary families. Warm White and Espresso serve as background and text neutrals rather than primary choices. Dusty Coral is the default for this site and its worked example. The site's color selector previews the other families without changing this written recommendation. A product can select another family when its context calls for it. The original pink anchor is too light for ordinary white text, so the light scheme uses a darker derived coral for filled primary actions and keeps `#D9878F` as the family anchor. The scheme must be checked again if a color, font weight, opacity, or surface changes.
 
 ## Compose color with context
 
