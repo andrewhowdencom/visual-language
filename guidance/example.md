@@ -26,3 +26,7 @@ Imagine a small workspace for reviewing tasks. The same information appears as a
 The hero and selected task earn their color because they carry hierarchy and state. Most of the working area stays neutral. The task title and action remain readable without depending on the accent. The web version uses links and browser navigation; the Android version uses platform navigation and Material 3 components. The site shows both visual sketches below. Its color selector can preview other families in these sketches; this decision record describes the Dusty Coral default.
 
 To adapt this example, keep the decision process and replace its task, content model, primary family, and platform controls when the context calls for it.
+
+## In the demonstration
+
+The site lets you compare ready, empty, loading, and error states for the same fieldnotes task in web and Android sketches. The wider web and compact Android figures below show the ordinary populated view. These are visual simulations, not a running Android app.

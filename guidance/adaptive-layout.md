@@ -23,3 +23,7 @@ For responsive web, these same numbers can be useful starting points in CSS pixe
 ## Platform mapping
 
 Android may move from a navigation bar to a rail or drawer, or from one pane to list-detail. Web navigation may shift from a compact menu to a visible sidebar; links, history, and browser zoom must continue to work. These are examples, not mandatory component substitutions. The underlying task and semantic hierarchy stay recognizable.
+
+## In the demonstration
+
+Resize the fieldnotes preview on the site. The task list stays readable at compact width; a detail pane appears when enough space is available. On a narrow browser window, scroll the preview sideways to inspect its wider state. The demonstration uses a browser container for the layout change. It does not prescribe an Android breakpoint or component.

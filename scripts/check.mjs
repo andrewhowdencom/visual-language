@@ -70,6 +70,9 @@ async function htmlFiles(directory) {
 const pages = await htmlFiles(dist);
 for (const file of pages) {
   const html = await readFile(file, 'utf8');
+  if (file.includes(`${join(dist, 'guide')}/`) && !html.includes('data-guide-demo=')) {
+    failures.push(`Missing visible guidance demo in ${file.slice(dist.length + 1)}`);
+  }
   for (const [, url] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     if (!url.startsWith(base)) continue;
     const relative = url.slice(base.length).split('#')[0].split('?')[0];
@@ -83,7 +86,7 @@ for (const file of pages) {
   }
 }
 
-if (pages.length !== 9) failures.push(`Expected 9 pages, found ${pages.length}`);
+if (pages.length !== 10) failures.push(`Expected 10 pages, found ${pages.length}`);
 if (failures.length) {
   console.error(failures.join('\n'));
   process.exitCode = 1;
