@@ -6,9 +6,13 @@ A platform-independent design language for humans and AI agents. The first relea
 
 Start with [guidance/SKILL.md](guidance/SKILL.md). It links to the rules needed to plan, build, and review an experience. Machine-readable starter values live in [tokens/palette.json](tokens/palette.json) and [tokens/foundations.json](tokens/foundations.json).
 
+For data entry and editing, see [Forms and fields](guidance/forms.md) for save behavior, validation, and platform mapping.
+
 ## Website
 
-The site is generated from the same Markdown files agents read:
+The site is generated from the same Markdown files agents read.
+
+Each guidance page includes a visible fieldnotes example. Interaction pages have browser simulations for states, saving, and recovery; the Markdown remains the source of the rules.
 
 ```sh
 pnpm install --frozen-lockfile

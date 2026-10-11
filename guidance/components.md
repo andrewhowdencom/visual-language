@@ -24,6 +24,12 @@ Pick a component for its job, not its appearance. **Must:** Use clear labels and
 
 **Should:** Keep the next action near the content it affects. Use confirmation for consequential or irreversible actions, not routine choices. Prefer progressive disclosure to a wall of controls.
 
+For data entry and editing, use [Forms and fields](forms.md) to choose how drafts, validation, and saving behave.
+
 ## Motion and motifs
 
 **Should:** Use motion to explain where content came from or what changed. Avoid decorative motion during dense work. Honor reduced-motion settings. Small flat motifs may distinguish a landing or overview surface, but they must never carry information alone or compete with controls.
+
+## In the demonstration
+
+The fieldnotes controls below let you select a task, complete it, simulate failure, and reset. Selection, loading, success, disabled, and error have visible text as well as color. Use keyboard focus to inspect the same controls without a pointer.

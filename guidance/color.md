@@ -35,3 +35,7 @@ The [token file](../tokens/palette.json) includes all nine Android-skill anchors
 - **May:** Use dynamic color on Android when personalization is part of the product. Retain a tested fallback and ensure the experience still has a recognizable structure.
 
 See [WCAG 2.2 contrast](https://www.w3.org/TR/WCAG22/#contrast-minimum) and [non-text contrast](https://www.w3.org/TR/WCAG22/#non-text-contrast). Physical colors need on-site samples under the actual lighting; screen hex values are not paint specifications.
+
+## In the demonstration
+
+The site shows canvas, surface, primary, container, and error as roles in one fieldnotes task. Change the site's primary family or light/dark theme to see related roles move together. The preview illustrates token mapping; rendered foreground and state combinations still need contrast checks in the product.

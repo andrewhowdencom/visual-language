@@ -25,3 +25,7 @@ The office is a real application of this language. Translate the intent—calm f
 ## Decide and review
 
 For each proposed item, record function, dimensions, material, color family, durability, maintenance, and how it behaves beside neighboring items. Make a scaled plan and a physical sample board before buying. Review the result from entry, seated, and circulation viewpoints, including at night. The digital [review checklist](review.md) has parallel checks for legibility, hierarchy, and states, but local building and accessibility requirements must be checked separately.
+
+## In the demonstration
+
+The illustrative room plan below maps broad neutral surfaces, dark structure, and one focal color family onto a workspace. It leaves an open circulation zone and keeps a smaller accent replaceable. It is not scaled and cannot establish whether dimensions, glare, acoustics, materials, or accessibility work in a real room.

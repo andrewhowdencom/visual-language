@@ -16,7 +16,7 @@ This is an MVP for designing a complete experience, from brief to review. Read t
 1. **Frame the job.** Write down the audience, primary task, environment, input methods, content density, and smallest and largest supported windows. Identify any physical setting in which the experience lives.
 2. **Choose a character.** Read [Principles](principles.md). Name the feeling the experience needs, its one primary color family, and which details deserve vivid color. Do not use all palette families just because they exist.
 3. **Map tokens.** Read [Color](color.md), [the palette tokens](../tokens/palette.json), and [foundation tokens](../tokens/foundations.json). Map semantic roles before assigning colors to components. Dusty Coral is the default starter family. The site lets readers preview seven tested primary families; a product still chooses one based on its context. Derive and test a new scheme when none of the starter families fits.
-4. **Plan layouts and states.** Read [Adaptive layout](adaptive-layout.md) and [Components and interaction](components.md). Cover compact and wide windows, keyboard and touch, loading, empty, error, disabled, selected, and focus states.
+4. **Plan layouts and states.** Read [Adaptive layout](adaptive-layout.md) and [Components and interaction](components.md). For data entry or editing, read [Forms and fields](forms.md) and define the save contract. Cover compact and wide windows, keyboard and touch, loading, empty, error, disabled, selected, and focus states.
 5. **Implement natively.** On Android, map roles into Material 3 `ColorScheme`, typography, shapes, and adaptive components. On web, use CSS custom properties, semantic HTML, responsive layout, and native controls where appropriate. Use current platform documentation for API details.
 6. **Review the result.** Run the checks in [Review](review.md) against rendered screens at small and large sizes, light and dark themes, and keyboard or accessibility input. Repair failures before delivery.
 
@@ -29,3 +29,7 @@ Include a brief decision record: task and supported contexts, selected primary f
 ## Source and maturity
 
 These Markdown files are canonical. The website renders them; it does not contain separate rules. The nine original palette colors are anchors. Derived tokens in the starter scheme are examples for the first release and may be refined with evidence. Material reference: Material Design 3 with Material 3 Expressive, reviewed October 2026. Changes to Material are adopted deliberately.
+
+## In the demonstration
+
+The site lets you step through a fieldnotes decision record from task brief to rendered review. It shows how each step adds a concrete choice; it is an illustration of the design loop, not a substitute for recording decisions for the real product.

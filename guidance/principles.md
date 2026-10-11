@@ -25,3 +25,7 @@ The character is warm, practical, and slightly reminiscent of late-1970s and ear
 ## Material reference
 
 Material Design 3 is the current baseline; Material 3 Expressive expands its palette, typography, shape, motion, and adaptive guidance. Use its system of roles and responsive thinking, then review the result against the actual platform and task. See [Material Design](https://m3.material.io/) and [Material 3 in Compose](https://developer.android.com/develop/ui/compose/designsystems/material3).
+
+## In the demonstration
+
+The fieldnotes task list below uses neutral surfaces, spacing, and type to stay easy to scan. One larger primary surface marks the next action. Its decorative motif stays away from the working list.
